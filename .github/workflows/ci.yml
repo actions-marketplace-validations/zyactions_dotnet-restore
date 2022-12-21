@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v3.1.0
 
       - name: .NET Setup
-        uses: zyactions/dotnet-setup@v1.0.0
+        uses: zyactions/dotnet-setup@v1.0.1
 
       - name: .NET Restore
         uses: ./
